@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Nigeria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="download.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav class="header">
+        <div class="nav-logo">
+            <h1>
+                NETFLIX
+            </h1>
+        </div>
+        <ul class="nav-links">
+            <a href="#">Home</a>
+            <a href="#" id="movie-down">Movies <b id="open">&triangledown;</b> <b id="close">&triangle;</b></a>
+            <a href="#" id="d0">Podcasts</a>
+            <a href="#">Kids</a>
+        </ul>
+        <div class="menu-button" id="menu-button">
+            <div class="m1" style="margin-top: 5px;"></div>
+            <div class="m1" style="margin-top: 5px;"></div>
+            <div class="m1" style="margin: 5px 0 5px 0;"></div>
+        </div>
+    </nav>
+    <div class="movies-section" id="movies-section"> 
+        <a href="#">Romance</a>
+        <a href="#">Thriller</a>
+        <a href="#">Horror</a>
+        <a href="#">Religion</a>
+        <a href="#">Animation</a>
+        <a href="#">Action</a>
+        <a href="#">Comedy</a>
+        <a href="#">Hollywood</a>
+        <a href="#">K-Drama</a>
+    </div>
+    <div class="side-nav" id="side-nav">
+        <a href="#" class="close" id="close-side-nav">&times;</a>
+        <a href="" id="side-nav-id">Home</a>
+        <a href="#" >Movies </a>
+        <a href=""  >Podcasts</a> 
+        <a href="" >Kids</a>
+    </div>
+    <div class="sect1">
+        <div class="sect-text">
+            <h1>Unlimited Movies, TV shows  <br>and lots more</h1>
+            <p>Start with just #2,200. Cancel any time</p>
+        </div>
+    </div>
+
+    <div class="email-section">
+        <input class="email" type="email" placeholder="Email address">
+        <button>Get Started</button>
+    </div>
+     
+    <h1 class="mrtj">
+        Trending Now
+    </h1>
+    <div style="position: relative;">
+        <div class="overflow-div">
+            <div class="img-trending" id="img-trending1">
+                <img src="download (1).jpg">
+            
+                <img src="download (2).jpg">
+            
+                <img src="images (1).jpg">
+          
+                <img src="download (4).jpg">
+            
+                <img src="download (5).jpg">
+           
+                <img src="images (9).jpg">
+            
+                <img src="images (10).jpg">
+    
+                <img src="images (11).jpg">
+            
+                <img src="images (12).jpg">
+           
+                <img src="images (13).jpg">
+           
+                <img src="images (14).jpg">
+            </div>
+            
+        </div>
+    
+        <button class="button-left" id="button-left" onclick="sideLeft()"><b>&triangleleft;</b></button>
+        <button class="button-right" id="button-right" onclick="sideRight()"><b>&triangleright;</b></button>
+    </div>
+    <h1 class="mrtj">
+        Only On Netflix
+    </h1> 
+
+    <div style="position: relative;">
+        <div class="overflow-div">
+            <div class="img-trending" id="img-trending2">
+                <img src="images (18).jpg">
+            
+                <img src="images (17).jpg">
+            
+                <img src="images (2).jpg">
+          
+                <img src="images (3).jpg">
+            
+                <img src="images (4).jpg">
+           
+                <img src="images (5).jpg">
+            
+                <img src="images (6).jpg">
+    
+                <img src="images (7).jpg">
+            
+                <img src="images (8).jpg">
+           
+                <img src="images (15).jpg">
+           
+                <img src="images (16).jpg">
+            </div>
+            
+        </div>
+    
+        <button class="button-left" id="button-left2" onclick="sideLeft2()"><b>&triangleleft;</b></button>
+        <button class="button-right" id="button-right2" onclick="sideRight2()"><b>&triangleright;</b></button>
+    </div>
+
+    <h1 class="mrtj">
+        More Reasons To Join
+    </h1>
+
+    <div class="reason-section">
+        <div class="reasons">
+            <p>Stories tailored to your taste</p>
+        </div>
+        <div class="reasons">
+            <p>Cancel or switch plans anytime</p>
+        </div>
+        <div class="reasons">
+            <p>A place just for kids</p>
+        </div>
+        <div class="reasons">
+            <p>For your phone, tablet, laptop and TV</p>
+        </div>
+    </div>
+
+    <h1 class="mrtj">
+        Frequently Asked Questions
+    </h1>
+
+    <div class="FAQ_body" >
+        <p class="FAQ">What is Netflix?</p>
+        <div class="f-o-c" style="display: inline;">
+            <a style="font-size: 30px;" id="fopen1"><b>&plus; </b></a>
+            <a style="font-size: 30px;" id="fclose1"><b>&times;</b></a>
+        </div>
+    </div>
+    <div class="FAQ_ans" id="FAQ_ans1">
+        <p>
+            Netflix is a streaming servive that offers a wide variety of 
+            award-winning TV shows, movies, anime, documentaries,
+            and more than one thousand internet connected service. 
+            <br>
+            <br>
+            You can watch as much as you want, whenever you want 
+            without a single commercial-all for one low monthly price.
+            There's always something new to discover and new TV 
+            shows and movies are added every week.
+        </p>
+    </div>
+    <div class="FAQ_body">
+        <p class="FAQ">How Much Does Netflix Cost?</p>
+        <div class="f-o-c" style="display: inline;">
+            <a style="font-size: 30px;" id="fopen2"><b>&plus; </b></a>
+            <a style="font-size: 30px;" id="fclose2"><b>&times;</b></a>
+        </div>
+    </div>
+    <div class="FAQ_ans" id="FAQ_ans2">
+        <p>Watch Netflix on your smart phone, tablet, Smart TV, laptop
+            or streaming device, all for one fixed monthly fee. Plans range from 
+            2,200 naira to 7,000 naira a month. No extra costs, no contracts.
+        </p>
+    </div>
+    <div class="FAQ_body">
+        <p class="FAQ">Where can I watch?</p>
+        <div class="f-o-c" style="display: inline;">
+            <a style="font-size: 30px;" id="fopen3"><b>&plus; </b></a>
+            <a style="font-size: 30px;" id="fclose3"><b>&times;</b></a>
+        </div>
+    </div>
+    <div class="FAQ_ans" id="FAQ_ans3">
+        <p> 
+            Watch anywhere, anytime. Sign in with your Netflix account
+            to watch instantly on the web at netflix.com from your personal computer
+            or any internet-connected device that offers the Netflix app.
+            <br>
+            <br>
+            You can also download your favourite shows with ios
+            or android app. Use downloads to watch while you're 
+            on the go and without an internet connection. Take 
+            Netflix with you anywhere
+        </p>
+    </div>
+    <div class="FAQ_body">
+        <p class="FAQ">How can I Cancel?</p>
+        <div class="f-o-c" style="display: inline;">
+            <a style="font-size: 30px;" id="fopen4"><b>&plus; </b></a>
+            <a style="font-size: 30px;" id="fclose4"><b>&times;</b></a>
+        </div>
+    </div>
+    <div class="FAQ_ans" id="FAQ_ans4">
+        <p> 
+            Netflix is flexible. There are no pesky contracts and no commitments.
+            You can easily cancel your account online in two clicks. There are no 
+            cancellation fees-start or stop your account anytime.
+        </p>
+    </div>
+    <div class="FAQ_body">
+        <p class="FAQ">What can I watch on Netflix?</p>
+        <div class="f-o-c" style="display: inline;">
+            <a style="font-size: 30px;" id="fopen5"><b>&plus; </b></a>
+            <a style="font-size: 30px;" id="fclose5"><b>&times;</b></a>
+        </div>
+    </div><div class="FAQ_ans" id="FAQ_ans5">
+        <p>
+            Netflix has an extensive library of feature films, documentaries, TV shows,
+            anime, award-winning Netflix originals, and more.
+            Watxh as much as you want, anytime you want.
+        </p>
+    </div>
+    <div class="FAQ_body">
+        <p class="FAQ">Is Netflix good for kids?</p>
+        <div class="f-o-c" style="display: inline;">
+            <a style="font-size: 30px;" id="fopen6"><b>&plus; </b></a>
+            <a style="font-size: 30px;" id="fclose6"><b>&times;</b></a>
+        </div>
+    </div><div class="FAQ_ans" id="FAQ_ans6">
+        <p>
+            The Netflix kids experience is included in your membership
+            to give parents control while kids enjoy family-friendly 
+            TV shows and movies in their own space.
+            <br>
+            <br>
+            Kids profiles come with PIN-protected parental controls that
+            let you restrict the maturity rating o content kids can watch and 
+            block specific titles you don't want kids to see.
+        </p>
+    </div>
+
+    <div class="same-button">
+        <button class="same" >Get Started</button>
+    </div>
+
+    <a href="#" style="color: white; padding: 0 20px 0 30px;" >Questions? Contact Us</a>
+
+    <div class="footer-holder">
+        <div class="footer">
+            <a href="">FAQ</a>
+            <a href="">Help Center</a>
+            <a href="">Account</a>
+            <a href="">Media Center</a>
+        </div>
+        <div class="footer">
+            <a href="">Investor Relations</a>
+            <a href="">Jobs</a>
+            <a href="">Ways to Watch</a>
+            <a href="">Terms of Use</a>
+        </div>
+        <div class="footer">
+            <a href="">Privacy</a>
+            <a href="">Cookie Preferences</a>
+            <a href="">Corporate Information</a>
+            <a href="mailto:ogunodemarvellous@gmail.com">Contact Us</a> 
+        </div>
+        <div class="footer">
+            <a href="">Speed Test</a>
+            <a href="">Legal Notices</a>
+            <a href="">Only on Netflix</a> 
+        </div>
+    </div>
+
+    <div class="english" style="margin: 0 20px 0 30px;">
+        <p style="cursor: pointer;">English <b>&triangledown;</b></p>
+    </div>
+
+    <p style="margin-top: 30px; margin-left: 30px;">
+        Developer : Walker @Walker77
+    </p>
+</body>
+<script src="index.js"></script>
+</html>

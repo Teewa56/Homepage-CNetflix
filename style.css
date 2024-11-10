@@ -1,0 +1,355 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(18, 18, 29);
+    color: white;
+    margin: 0;
+    padding: 0 40px 0 40px;
+}
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+    margin: 0; 
+    background-color: rgb(18, 18, 29); 
+} 
+.nav-logo h1{
+    font-size: 35px;
+    color: red; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+}
+.nav-links a::after{
+    content: " ";
+    height: 4px;
+    border-radius: 20px;
+    background-color: white;
+    left: 0;
+    top: 30px;
+    width: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+.nav-links a:hover::after{
+    width: 100%;
+}
+.movies-section{
+    background-color: rgb(21, 21, 36);
+    opacity: 0.8;
+    transition: 0.5s;
+    height: 0;
+    width: 250px;
+    z-index: 1;
+    position: fixed;
+    overflow-x: hidden;  
+    top: 0;
+    right: 0;   
+}
+.movies-section a{
+    width: 100%;  
+    padding: 10px;
+    text-decoration: none;
+    display: block; 
+    font-size: 20px;
+    color: white; 
+} 
+.movies-section a:hover{
+    color: rgb(182, 142, 142);
+}
+.sect1{
+    height: 70vh;
+    background-color: rgb(82, 67, 67); 
+    border-radius: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.sect-text h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sect-text p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.email-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+input[type=email]{
+    border-radius: 30px;
+    height: 5vh;
+    width: 400px;
+    background-color: rgba(26, 24, 24, 0.842);
+    color: rgb(230, 223, 223);
+    padding: 5px 10px 5px 20px ; 
+    font-size: 15px;
+    margin: 20px;
+    border: 1px solid rgb(230, 223, 223);
+}
+.email-section button{  
+    padding: 10px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.same{  
+    padding: 10px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.same:hover{
+    opacity: 0.8;
+}
+.email-section button:hover{
+    opacity: 0.8;
+}
+.mrtj{ 
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.reason-section{
+    display: flex;
+    justify-content: center;
+}
+.reasons{
+    width: 400px;
+    height: 10vh;
+    background-color: rgb(14, 14, 19);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.reasons p{
+    font-size: 20px;
+    text-align: center;
+}
+.FAQ_body {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(14, 14, 19); 
+    border-radius: 20px;
+    margin: 5px; 
+    align-items: center;
+    padding: 0 20px 0 20px;
+    height: fit-content; 
+    cursor: pointer;
+} 
+.FAQ_ans{ 
+    background-color: rgb(14, 14, 19); 
+    border-radius: 20px;
+    margin: 5px; 
+    align-items: center; 
+    opacity: 0.8;
+    transition: 0.5s; 
+    height: 0;    
+    overflow-x: hidden;    
+} 
+.FAQ_body:hover{
+    background-color: rgb(58, 55, 55);
+} 
+.FAQ{
+    height: fit-content; 
+} 
+.same-button{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer-holder{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 25%; 
+    height: fit-content;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px; 
+}
+.footer a{
+    display: block;
+    color: white;
+    padding: 10px;
+}
+.english{
+    border: 2px solid white;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 0 15px 0 15px;
+}
+
+.overflow-div{ 
+    width: 100%;
+    overflow-x: scroll; 
+    scrollbar-width: none;
+} 
+.button-left{
+    left: -10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #161f2b;
+    color: rgb(143, 128, 128);
+    border: none; 
+    font-size: 50px;
+    padding: 20px 0 20px 0;
+    cursor: pointer; 
+    border-radius: 20px;
+}
+.button-right{
+    right: -10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #161f2b;
+    color: rgb(143, 128, 128);
+    border: none; 
+    font-size: 50px;
+    padding: 20px 0 20px 0;
+    cursor: pointer; 
+    border-radius: 20px;
+}
+.img-trending{
+    display: flex;
+    transition: transform 0.5s ease;  
+}
+.img-trending img{
+    height: auto;
+    width: 250px;
+    border-radius: 20px;
+    margin: 10px; 
+} 
+
+.menu-button{
+    display: block; 
+    padding: 20px;
+}
+.m1{
+    width: 25px;
+    height: 5px;
+    background-color: rgb(30, 30, 39);
+    border-radius: 20px;
+
+}
+.side-nav{
+    height: 100%;
+    width: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    opacity: 0.8;
+    z-index: 1;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+.side-nav a{
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    transition: 0.5s;
+}
+.side-nav a:hover{
+    color: rgb(147, 177, 177);
+}
+
+
+@media screen and (max-width:480px) {
+    .nav-links{
+        display: none;
+    }
+    body{
+        padding: 10px;
+    }
+    .sect-text h1{
+        font-size: 30px;
+    }
+    .sect-text p{
+        font-size: 15px;
+    }
+    .sect1{
+        height: 50vh;
+    }
+    .email-section{
+        display: inline-block; 
+        padding: 5px;
+        margin: 10px 5px 10px 5px;
+        text-align: center; 
+    }
+    .email{
+        width: 200px;
+    }
+    .email-section button{
+        font-size: 15px;  
+    }
+    .mrtj{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .reason-section{
+        display: block;
+    }
+    .reasons{
+        width: 90%;
+        padding: 20px;
+        height: 5vh;
+    }
+    .reasons p{
+        text-align: left;
+    }
+    .footer-holder{
+        display: block;
+    }
+    .footer{
+        margin: 0;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .menu-button{
+        display: none;
+    }
+}
