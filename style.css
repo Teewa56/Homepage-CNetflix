@@ -313,13 +313,14 @@ input[type=email]{
         height: 50vh;
     }
     .email-section{
-        display: inline-block; 
+        display: block; 
         padding: 5px;
         margin: 10px 5px 10px 5px;
         text-align: center; 
+        border: 2px solid white;
     }
     .email{
-        width: 100px;
+        width: 300px;
     }
     .email-section button{
         font-size: 15px;  
@@ -345,6 +346,13 @@ input[type=email]{
     .footer{
         margin: 0;
         width: 90%;
+    }
+    .img-trending img{
+        width: 150px;
+        height: 200px;
+    }
+    .left-button,.left-button2,.right-button,.right-button2{
+        padding: 20px;
     }
 }
 
