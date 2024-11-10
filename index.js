@@ -205,7 +205,7 @@ function sideRight2(){
         container2.style.transform = `translateX(-${index2*95}px)`; 
     }
 }
-yy
+
 document.getElementById("menu-button").onclick=()=>{
     document.getElementById("side-nav").style.width = "100%";
 }
