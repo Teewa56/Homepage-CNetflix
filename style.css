@@ -319,7 +319,7 @@ body{
         text-align: center;
     }
     .email{
-        width: 250px;
+        width: 200px;
     }
     .email-section button{
         font-size: 15px;  
@@ -352,11 +352,13 @@ body{
     }
     .button-left{
         padding: 20px;
-        left: 0:
+        left: 0;
+        opacity: 0.8;
     }
     .button-right{
          right: 0;
         padding: 20px;
+        opacity: 0.8;
     }
 }
 
