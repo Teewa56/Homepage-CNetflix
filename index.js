@@ -207,7 +207,7 @@ function sideRight2(){
 }
 yy
 document.getElementById("menu-button").onclick=()=>{
-    document.getElementById("side-nav").style.width = "300px";
+    document.getElementById("side-nav").style.width = "100%";
 }
 document.getElementById("close-side-nav").onclick=()=>{
     document.getElementById("side-nav").style.width = "0";
