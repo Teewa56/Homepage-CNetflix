@@ -98,7 +98,7 @@ body{
     align-items: center;
     padding: 20px;
 }
-input[type=email]{
+.email{
     border-radius: 30px;
     height: 5vh;
     width: 400px;
@@ -319,7 +319,7 @@ input[type=email]{
         text-align: center;
     }
     .email{
-        width: 0;
+        width: 200px;
     }
     .email-section button{
         font-size: 15px;  
