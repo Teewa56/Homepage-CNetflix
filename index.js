@@ -212,3 +212,18 @@ document.getElementById("menu-button").onclick=()=>{
 document.getElementById("close-side-nav").onclick=()=>{
     document.getElementById("side-nav").style.width = "0";
 }
+
+const s_close = document.getElementById("s-close");
+document.getElementById("search-img").onclick=()=>{
+    document.getElementById("search").style.width = "250px"; 
+    s_close.style.display = "inline";
+    document.getElementById("nav-links").style.display = "none";
+}
+ 
+document.getElementById("s-close").onclick=()=>{
+    document.getElementById("search").style.width = "0";
+    s_close.style.display = "none";
+    document.getElementById("nav-links").style.display = "flex";
+}
+ 
+
