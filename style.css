@@ -59,6 +59,7 @@ body{
 .nav-logo h1{
     font-size: 35px;
     color: red; 
+    font-family: "Bebas Neue", sans-serif;
 }
 .nav-links{
     display: flex;
